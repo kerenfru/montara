@@ -10,7 +10,7 @@ import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Grid from '@material-ui/core/Grid';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+// import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import authStore from '../../stores/authStore';
@@ -43,7 +43,7 @@ export default class Login extends React.Component {
                 <CssBaseline/>
                 <div className='paper'>
                     <Avatar className='avatar'>
-                        <LockOutlinedIcon/>
+                        {/*<LockOutlinedIcon/>*/}
                     </Avatar>
                     <Typography component="h1" variant="h5">
                         Sign in

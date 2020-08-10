@@ -9,7 +9,7 @@ import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import AccountCircle from '@material-ui/icons/esm/AccountCircle';
+// import AccountCircle from '@material-ui/icons/esm/AccountCircle';
 import userStore from '@/stores/userStore';
 
 @observer
@@ -54,7 +54,7 @@ class SettingsForm extends React.Component {
                 <CssBaseline/>
                 <div className='paper'>
                     <Avatar className='avatar'>
-                        <AccountCircle/>
+                        {/*<AccountCircle/>*/}
                     </Avatar>
                     <Typography component="h1" variant="h5">
                         Your Settings

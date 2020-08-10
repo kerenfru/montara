@@ -6,12 +6,11 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import './Register.scss';
-import Fingerprint from '@material-ui/icons/esm/Fingerprint';
+// import Fingerprint from '@material-ui/icons/esm/Fingerprint';
 import authStore from '../../stores/authStore';
 
 @observer
@@ -39,7 +38,7 @@ export default class Register extends React.Component {
                 <CssBaseline/>
                 <div className='paper'>
                     <Avatar className='avatar'>
-                        <Fingerprint/>
+                        {/*<Fingerprint/>*/}
                     </Avatar>
                     <Typography component="h1" variant="h5">
                         Sign up

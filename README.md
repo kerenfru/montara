@@ -2,6 +2,7 @@
 A simple example to showcase MobX features.
 ## Prerequisites
 
+
 Install [NPM](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/download/)
 ## Scripts
 In the project directory you can run:
